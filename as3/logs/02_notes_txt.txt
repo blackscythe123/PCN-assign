@@ -1,0 +1,26 @@
+Enter URL: Host: localhost
+Port: 8000
+Path: /notes.txt
+
+--- Request sent ---
+GET /notes.txt HTTP/1.1
+Host: localhost
+Connection: close
+
+
+--- Response headers ---
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.4
+Date: Mon, 17 Aug 2026 17:58:25 GMT
+Content-type: text/plain
+Content-Length: 1022
+Last-Modified: Mon, 17 Aug 2026 17:52:58 GMT
+
+--- Performance ---
+Status line       : HTTP/1.0 200 OK
+Connection time   : 0.255 ms
+Response time     : 2.442 ms (time to first byte)
+Download time     : 3.559 ms (full response)
+Body size         : 1022 bytes
+Throughput        : 287142.45 bytes/sec (280.41 KB/s)
+Saved body to     : downloaded_notes.txt

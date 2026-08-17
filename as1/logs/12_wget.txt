@@ -1,0 +1,11 @@
+--2026-08-17 16:33:14--  https://example.com/
+Resolving example.com (example.com)... 104.20.23.154, 172.66.147.243, 2606:4700:10::ac42:93f3, ...
+Connecting to example.com (example.com)|104.20.23.154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘example.html’
+
+     0K                                                        62.9M=0s
+
+2026-08-17 16:33:14 (62.9 MB/s) - ‘example.html’ saved [559]
+

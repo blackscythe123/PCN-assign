@@ -1,0 +1,16 @@
+--- CRC SENDER (clean run) ---
+Message            : "HELLO"
+Binary data        : 0100100001000101010011000100110001001111
+Generator G(x)     : 10011  (x^4 + x + 1)
+Computed CRC       : 1111
+Frame (data + CRC) : 01001000010001010100110001001100010011111111
+Frame sent to receiver over TCP (port 6063).
+
+--- CRC RECEIVER (clean run) ---
+CRC receiver listening on TCP port 6063 ...
+Client connected: 127.0.0.1:35756
+Received frame     : 01001000010001010100110001001100010011111111  (44 bits)
+Generator G(x)     : 10011  (x^4 + x + 1)
+Remainder          : 0000
+Verification result: FRAME IS ERROR-FREE (remainder = 0)
+

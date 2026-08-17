@@ -1,0 +1,16 @@
+--- CRC SENDER (corrupted run) ---
+Message            : "HELLO"
+Binary data        : 0100100001000101010011000100110001001111
+Generator G(x)     : 10011  (x^4 + x + 1)
+Computed CRC       : 1111
+Frame (data + CRC) : 01001000010001010100110001001100010011111111
+Corruption: flipping bit at position 3 of the frame (0 -> 1)
+Corrupted frame    : 01011000010001010100110001001100010011111111
+Frame sent to receiver over TCP (port 6063).
+
+--- CRC RECEIVER (corrupted run) ---
+Client connected: 127.0.0.1:35760
+Received frame     : 01011000010001010100110001001100010011111111  (44 bits)
+Generator G(x)     : 10011  (x^4 + x + 1)
+Remainder          : 0111
+Verification result: FRAME CONTAINS ERRORS (remainder != 0)

@@ -1,0 +1,26 @@
+Enter URL: Host: localhost
+Port: 8000
+Path: /index.html
+
+--- Request sent ---
+GET /index.html HTTP/1.1
+Host: localhost
+Connection: close
+
+
+--- Response headers ---
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.4
+Date: Mon, 17 Aug 2026 17:58:20 GMT
+Content-type: text/html
+Content-Length: 168
+Last-Modified: Mon, 17 Aug 2026 17:52:54 GMT
+
+--- Performance ---
+Status line       : HTTP/1.0 200 OK
+Connection time   : 0.137 ms
+Response time     : 4.317 ms (time to first byte)
+Download time     : 6.220 ms (full response)
+Body size         : 168 bytes
+Throughput        : 27009.71 bytes/sec (26.38 KB/s)
+Saved body to     : downloaded_index.html

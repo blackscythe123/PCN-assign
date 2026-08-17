@@ -1,0 +1,32 @@
+Enter URL: Host: example.com
+Port: 80
+Path: /
+
+--- Request sent ---
+GET / HTTP/1.1
+Host: example.com
+Connection: close
+
+
+--- Response headers ---
+HTTP/1.1 200 OK
+Date: Mon, 17 Aug 2026 17:56:47 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: close
+Server: cloudflare
+Last-Modified: Wed, 12 Aug 2026 20:15:57 GMT
+Allow: GET, HEAD
+Accept-Ranges: bytes
+Age: 313
+cf-cache-status: HIT
+CF-RAY: a2ca8eb2cbdda931-MAA
+
+--- Performance ---
+Status line       : HTTP/1.1 200 OK
+Connection time   : 5.434 ms
+Response time     : 10.748 ms (time to first byte)
+Download time     : 11.689 ms (full response)
+Body size         : 571 bytes
+Throughput        : 48849.68 bytes/sec (47.70 KB/s)
+Saved body to     : downloaded_index.html

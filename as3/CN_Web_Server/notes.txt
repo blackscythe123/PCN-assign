@@ -1,0 +1,25 @@
+Computer Networks Lab - Assignment 3 Notes
+===========================================
+
+Topic: Implementation of HTTP Client using TCP Sockets
+
+This text file is one of the resources hosted on the Python
+web server (python3 -m http.server) and downloaded by the
+C TCP socket HTTP client written for this assignment.
+
+Key points covered:
+1. TCP sockets are used to establish a reliable connection
+   between the client and the server before any data is sent.
+2. The client builds a plain-text HTTP GET request by hand
+   and writes it directly to the socket.
+3. The server (Python's built-in http.server) parses the
+   request and streams the requested file back over the
+   same TCP connection.
+4. The client separates the HTTP response headers from the
+   body using the blank line (CRLFCRLF) that marks the end
+   of the header section, then writes the body bytes to a
+   local file.
+5. Response time, download time, total bytes transferred and
+   throughput are measured on the client side for analysis.
+
+End of notes.

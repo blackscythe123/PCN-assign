@@ -1,0 +1,7 @@
+Enter Roll Number: 
+--- Server Response ---
+Roll Number: 3122247001062
+Name: Simiyon Vinscent Samuel L
+Department: Computer Science
+Semester: 5
+CGPA: 8.32

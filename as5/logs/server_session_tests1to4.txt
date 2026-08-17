@@ -1,0 +1,6 @@
+DNS server listening on UDP port 6062 ...
+Loaded 10 hostname entries into DNS table.
+Query received from 127.0.0.1:53748 -> "mail.college.edu"
+  -> resolved to 10.20.30.40
+Query received from 127.0.0.1:48898 -> "nosuchdomain.xyz"
+  -> NXDOMAIN (not in table)

@@ -1,0 +1,7 @@
+Loaded 10 student records from students.csv
+TCP server listening on port 6060...
+Client connected: 127.0.0.1:48692
+Client connected: 127.0.0.1:48700
+Client connected: 127.0.0.1:54246
+Client connected: 127.0.0.1:50000
+Client connected: 127.0.0.1:50012

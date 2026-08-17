@@ -1,0 +1,10 @@
+DNS client ready. Enter hostnames to resolve (one per line, blank line/EOF to quit).
+
+> Query: "mail.college.edu"
+  CACHE MISS: querying DNS server...
+  RESOLVED: mail.college.edu -> 10.20.30.40
+
+> Query: "mail.college.edu"
+  CACHE HIT: mail.college.edu -> 10.20.30.40 (no UDP query sent)
+
+Client exiting.

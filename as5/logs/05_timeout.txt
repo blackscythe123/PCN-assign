@@ -1,0 +1,15 @@
+DNS client ready. Enter hostnames to resolve (one per line, blank line/EOF to quit).
+
+> Query: "www.gitplex.io"
+  CACHE MISS: querying DNS server...
+  TIMEOUT: no response from DNS server within 2 seconds.
+
+Client exiting.
+
+--- test harness notes ---
+Confirmed via `pgrep dns_server` (empty result) that NO server process was
+running on UDP port 6062 before this run.
+Wall-clock timing captured separately with /usr/bin/time:
+elapsed_wall_clock_seconds=2.10 exit_status=0
+This matches TIMEOUT_SEC=2 set via setsockopt(SO_RCVTIMEO) in dns_client.c --
+the client blocked for ~2s, then returned normally instead of hanging forever.

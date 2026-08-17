@@ -1,0 +1,26 @@
+Enter URL: Host: localhost
+Port: 8000
+Path: /image.jpg
+
+--- Request sent ---
+GET /image.jpg HTTP/1.1
+Host: localhost
+Connection: close
+
+
+--- Response headers ---
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.4
+Date: Mon, 17 Aug 2026 17:58:37 GMT
+Content-type: image/jpeg
+Content-Length: 931
+Last-Modified: Mon, 17 Aug 2026 17:54:32 GMT
+
+--- Performance ---
+Status line       : HTTP/1.0 200 OK
+Connection time   : 0.509 ms
+Response time     : 1.930 ms (time to first byte)
+Download time     : 3.066 ms (full response)
+Body size         : 931 bytes
+Throughput        : 303620.98 bytes/sec (296.50 KB/s)
+Saved body to     : downloaded_image.jpg

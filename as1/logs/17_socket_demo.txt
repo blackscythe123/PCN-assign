@@ -1,0 +1,31 @@
+=== server terminal ===
+[server] running on host: samsamuel
+[server] htonl(INADDR_ANY)=0  htons(5050)=47635 (network byte order)
+[server] ntohl() back = 0  ntohs() back = 5050 (host byte order)
+[server] listening on port 5050 ... (waiting for the client to connect)
+[server] fcntl(F_GETFL) on accepted socket = 0x2 (O_NONBLOCK bit=0)
+[server] getpeername() -> client connected from 127.0.0.1:41588
+[server] gethostbyaddr() -> localhost
+
+them: hi
+you: hi
+them: how are you, what are you doing
+you: doing good, just testing this program
+them: testing success, bye-bye
+you: testing success, bye-bye
+
+[server] close() called on both sockets. Server exiting.
+
+=== client terminal ===
+[client] running on host: samsamuel, connecting to 127.0.0.1
+[client] gethostbyname("127.0.0.1") -> 127.0.0.1
+[client] connect() succeeded on port 5050
+
+you: hi
+them: hi
+you: how are you, what are you doing
+them: doing good, just testing this program
+you: testing success, bye-bye
+them: testing success, bye-bye
+
+[client] close() called. Client exiting.

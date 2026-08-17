@@ -1,0 +1,26 @@
+Enter URL: Host: localhost
+Port: 8000
+Path: /does_not_exist.html
+
+--- Request sent ---
+GET /does_not_exist.html HTTP/1.1
+Host: localhost
+Connection: close
+
+
+--- Response headers ---
+HTTP/1.0 404 File not found
+Server: SimpleHTTP/0.6 Python/3.14.4
+Date: Mon, 17 Aug 2026 17:59:11 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 460
+
+--- Performance ---
+Status line       : HTTP/1.0 404 File not found
+Connection time   : 0.126 ms
+Response time     : 1.512 ms (time to first byte)
+Download time     : 1.614 ms (full response)
+Body size         : 460 bytes
+Throughput        : 284988.36 bytes/sec (278.31 KB/s)
+Saved body to     : downloaded_does_not_exist.html

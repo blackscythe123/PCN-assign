@@ -1,0 +1,34 @@
+Enter HTTPS host (e.g. example.com): TCP connection established to www.google.com:443
+SSL handshake complete. Protocol: TLSv1.3  Cipher: TLS_AES_256_GCM_SHA384
+Server certificate subject: /CN=www.google.com
+Certificate verification: OK (trusted chain + hostname match)
+
+--- Response headers ---
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+Date: Mon, 17 Aug 2026 18:01:53 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-vUEaTgQJY0Fe441sjXFexw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Accept-CH: Sec-CH-Prefers-Color-Scheme
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: __Secure-STRP=ANmZwa3HKY0FhB8GuiLShLY5lXgI9wj2N1CQCit0_IOx-h9UNM62PHnUMIlIlEVnGOB5_nMoJOFNC2yXPPOoDLMdcGp6FbiG7xor; expires=Mon, 17-Aug-2026 18:06:53 GMT; path=/; domain=.google.com; Secure; SameSite=strict
+Set-Cookie: AEC=AdJVEavyjqGAbTmBrktV6UBPJbbLw5W_l4NGQK7EaZjOsZbiCqpMq_mQrnE; expires=Sat, 13-Feb-2027 18:01:53 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+Set-Cookie: NID=534=WhK7JzxarZv1rGUGSUsMjgP6qKFtBvHotKH_ABYJuR9pljnhbzH6z5PcREw9zKYNZfkry3ujn2jvstqRUqUTkT0337zKj1hIBlkXGaduMYDfGCACH7ziWQHEh1xYtAMHMKM5W_rv0_AqFSiM01B41b52__de0nFykUb8yFIQI5dd8j1ASssEYgG3rAAyjOXmuIxmcUlcJYwWB5Buc7pncaY; expires=Tue, 16-Feb-2027 18:01:53 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Saved decrypted body to downloaded_https_page.html
+
+--- Performance ---
+TCP connection time : 3.400 ms
+SSL handshake time  : 35.935 ms
+Round trip time     : 84.841 ms (time to first response byte)
+Total data received : 90011 bytes
+Transfer time       : 94.860 ms
+Data transfer rate  : 948879.30 bytes/sec (926.64 KB/s)

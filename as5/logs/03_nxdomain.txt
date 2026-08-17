@@ -1,0 +1,7 @@
+DNS client ready. Enter hostnames to resolve (one per line, blank line/EOF to quit).
+
+> Query: "nosuchdomain.xyz"
+  CACHE MISS: querying DNS server...
+  NXDOMAIN: "nosuchdomain.xyz" does not exist in the DNS table.
+
+Client exiting.

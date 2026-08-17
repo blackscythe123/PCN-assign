@@ -1,0 +1,29 @@
+Enter URL: Host: info.cern.ch
+Port: 80
+Path: /
+
+--- Request sent ---
+GET / HTTP/1.1
+Host: info.cern.ch
+Connection: close
+
+
+--- Response headers ---
+HTTP/1.1 200 OK
+Date: Mon, 17 Aug 2026 17:57:57 GMT
+Server: Apache
+Last-Modified: Wed, 05 Feb 2014 16:00:31 GMT
+ETag: "286-4f1aadb3105c0"
+Accept-Ranges: bytes
+Content-Length: 646
+Connection: close
+Content-Type: text/html
+
+--- Performance ---
+Status line       : HTTP/1.1 200 OK
+Connection time   : 184.566 ms
+Response time     : 186.698 ms (time to first byte)
+Download time     : 186.714 ms (full response)
+Body size         : 646 bytes
+Throughput        : 3459.85 bytes/sec (3.38 KB/s)
+Saved body to     : downloaded_index.html

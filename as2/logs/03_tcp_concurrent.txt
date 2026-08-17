@@ -1,0 +1,17 @@
+=== Client A (3122247001064 - Lakshmi Priya V), launched concurrently ===
+Enter Roll Number: 
+--- Server Response ---
+Roll Number: 3122247001064
+Name: Lakshmi Priya V
+Department: Computer Science
+Semester: 5
+CGPA: 9.01
+
+=== Client B (3122247001068 - Ramya Devi K), launched concurrently ===
+Enter Roll Number: 
+--- Server Response ---
+Roll Number: 3122247001068
+Name: Ramya Devi K
+Department: Computer Science
+Semester: 5
+CGPA: 8.45

@@ -1,0 +1,26 @@
+Enter URL: Host: localhost
+Port: 8000
+Path: /sample.pdf
+
+--- Request sent ---
+GET /sample.pdf HTTP/1.1
+Host: localhost
+Connection: close
+
+
+--- Response headers ---
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.4
+Date: Mon, 17 Aug 2026 17:58:32 GMT
+Content-type: application/pdf
+Content-Length: 642
+Last-Modified: Mon, 17 Aug 2026 17:53:17 GMT
+
+--- Performance ---
+Status line       : HTTP/1.0 200 OK
+Connection time   : 0.276 ms
+Response time     : 2.177 ms (time to first byte)
+Download time     : 3.169 ms (full response)
+Body size         : 642 bytes
+Throughput        : 202605.28 bytes/sec (197.86 KB/s)
+Saved body to     : downloaded_sample.pdf

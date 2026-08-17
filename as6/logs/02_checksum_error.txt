@@ -1,0 +1,33 @@
+=========== RUN 2: CORRUPTED TRANSMISSION (bit flipped) =========
+Message           : "NETWORKS"
+Split into 8 8-bit words.
+
+Sender: computing checksum
+  step  1: word =  78 (0x4E)  ->  sum =  78 (0x4E)  carry-out = 0
+  step  2: word =  69 (0x45)  ->  sum = 147 (0x93)  carry-out = 0
+  step  3: word =  84 (0x54)  ->  sum = 231 (0xE7)  carry-out = 0
+  step  4: word =  87 (0x57)  ->  sum =  63 (0x3F)  carry-out = 1
+  step  5: word =  79 (0x4F)  ->  sum = 142 (0x8E)  carry-out = 0
+  step  6: word =  82 (0x52)  ->  sum = 224 (0xE0)  carry-out = 0
+  step  7: word =  75 (0x4B)  ->  sum =  44 (0x2C)  carry-out = 1
+  step  8: word =  83 (0x53)  ->  sum = 127 (0x7F)  carry-out = 0
+  final sum        = 127 (0x7F)
+  checksum (~sum)  = 128 (0x80)
+
+Corruption: flipping bit 0 of word[0] ( 78 ->  79) before the receiver checks it.
+
+Receiver: re-adding data + checksum
+  step  1: word =  79 (0x4F)  ->  sum =  79 (0x4F)  carry-out = 0
+  step  2: word =  69 (0x45)  ->  sum = 148 (0x94)  carry-out = 0
+  step  3: word =  84 (0x54)  ->  sum = 232 (0xE8)  carry-out = 0
+  step  4: word =  87 (0x57)  ->  sum =  64 (0x40)  carry-out = 1
+  step  5: word =  79 (0x4F)  ->  sum = 143 (0x8F)  carry-out = 0
+  step  6: word =  82 (0x52)  ->  sum = 225 (0xE1)  carry-out = 0
+  step  7: word =  75 (0x4B)  ->  sum =  45 (0x2D)  carry-out = 1
+  step  8: word =  83 (0x53)  ->  sum = 128 (0x80)  carry-out = 0
+  step  9: word = 128 (0x80)  ->  sum =   1 (0x01)  carry-out = 1
+  final sum at receiver =   1 (0x01)
+
+Verification result: ERROR DETECTED (sum of all words is not all 1s)
+----------------------------------------------------------------
+

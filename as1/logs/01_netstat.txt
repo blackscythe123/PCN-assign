@@ -1,0 +1,12 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 10.255.255.254:53       0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      74/systemd-resolved 
+tcp        0      0 127.0.0.54:53           0.0.0.0:*               LISTEN      74/systemd-resolved 
+udp        0      0 127.0.0.54:53           0.0.0.0:*                           74/systemd-resolved 
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           74/systemd-resolved 
+udp        0      0 10.255.255.254:53       0.0.0.0:*                           -                   
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           237/chronyd         
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           -                   
+udp6       0      0 ::1:323                 :::*                                -                   
+udp6       0      0 ::1:323                 :::*                                237/chronyd         

@@ -1,0 +1,27 @@
+Enter HTTPS host (e.g. example.com): TCP connection established to example.com:443
+SSL handshake complete. Protocol: TLSv1.3  Cipher: TLS_AES_256_GCM_SHA384
+Server certificate subject: /CN=example.com
+Certificate verification: OK (trusted chain + hostname match)
+
+--- Response headers ---
+HTTP/1.1 200 OK
+Date: Mon, 17 Aug 2026 18:01:42 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: close
+Server: cloudflare
+last-modified: Wed, 12 Aug 2026 20:15:57 GMT
+allow: GET, HEAD
+Accept-Ranges: bytes
+Age: 2556
+cf-cache-status: HIT
+CF-RAY: a2ca95ebaeff49a6-BOM
+Saved decrypted body to downloaded_https_page.html
+
+--- Performance ---
+TCP connection time : 19.884 ms
+SSL handshake time  : 22.872 ms
+Round trip time     : 84.610 ms (time to first response byte)
+Total data received : 868 bytes
+Transfer time       : 84.623 ms
+Data transfer rate  : 10257.27 bytes/sec (10.02 KB/s)

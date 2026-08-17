@@ -1,0 +1,30 @@
+=========== RUN 1: CLEAN TRANSMISSION (no corruption) ===========
+Message           : "NETWORKS"
+Split into 8 8-bit words.
+
+Sender: computing checksum
+  step  1: word =  78 (0x4E)  ->  sum =  78 (0x4E)  carry-out = 0
+  step  2: word =  69 (0x45)  ->  sum = 147 (0x93)  carry-out = 0
+  step  3: word =  84 (0x54)  ->  sum = 231 (0xE7)  carry-out = 0
+  step  4: word =  87 (0x57)  ->  sum =  63 (0x3F)  carry-out = 1
+  step  5: word =  79 (0x4F)  ->  sum = 142 (0x8E)  carry-out = 0
+  step  6: word =  82 (0x52)  ->  sum = 224 (0xE0)  carry-out = 0
+  step  7: word =  75 (0x4B)  ->  sum =  44 (0x2C)  carry-out = 1
+  step  8: word =  83 (0x53)  ->  sum = 127 (0x7F)  carry-out = 0
+  final sum        = 127 (0x7F)
+  checksum (~sum)  = 128 (0x80)
+
+Receiver: re-adding data + checksum
+  step  1: word =  78 (0x4E)  ->  sum =  78 (0x4E)  carry-out = 0
+  step  2: word =  69 (0x45)  ->  sum = 147 (0x93)  carry-out = 0
+  step  3: word =  84 (0x54)  ->  sum = 231 (0xE7)  carry-out = 0
+  step  4: word =  87 (0x57)  ->  sum =  63 (0x3F)  carry-out = 1
+  step  5: word =  79 (0x4F)  ->  sum = 142 (0x8E)  carry-out = 0
+  step  6: word =  82 (0x52)  ->  sum = 224 (0xE0)  carry-out = 0
+  step  7: word =  75 (0x4B)  ->  sum =  44 (0x2C)  carry-out = 1
+  step  8: word =  83 (0x53)  ->  sum = 127 (0x7F)  carry-out = 0
+  step  9: word = 128 (0x80)  ->  sum = 255 (0xFF)  carry-out = 0
+  final sum at receiver = 255 (0xFF)
+
+Verification result: ERROR-FREE (sum of all words is all 1s)
+----------------------------------------------------------------

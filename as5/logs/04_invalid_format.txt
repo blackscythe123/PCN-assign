@@ -1,0 +1,9 @@
+DNS client ready. Enter hostnames to resolve (one per line, blank line/EOF to quit).
+
+> Query: "bad_host!!name"
+  ERROR: invalid hostname format, not sending to server.
+
+> Query: "localhost"
+  ERROR: invalid hostname format, not sending to server.
+
+Client exiting.
